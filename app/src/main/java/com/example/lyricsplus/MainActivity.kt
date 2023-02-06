@@ -8,13 +8,13 @@ import android.widget.EditText
 
 class MainActivity : AppCompatActivity() {
 
-    EditText monchamps
-    newbutton monbouton
+    lateinit var monchamps: EditText
+    lateinit var monbouton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        mobbouton = findViewById(R.id.buttton)
+        monbouton = findViewById(R.id.buttton)
         monchamps = findViewById(R.id.edit_text)
     }
 }
