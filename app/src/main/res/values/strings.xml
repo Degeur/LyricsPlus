@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LyricsPlus</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_lyrics">Lyrics</string>
+    <string name="menu_favorites">Favoris</string>
+    <string name="menu_ranking">Classement</string>
 </resources>
