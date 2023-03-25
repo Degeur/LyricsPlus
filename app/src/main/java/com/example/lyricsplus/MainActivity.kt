@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         monchamps = findViewById(R.id.edit_text)
         monbouton.setOnClickListener {
             val intent = Intent(this, AffichageDesParolesActivity::class.java)
+            val inputText = monchamps.text.toString()
+            intent.putExtra("inputText", inputText)
             startActivity(intent)
         }
     }
