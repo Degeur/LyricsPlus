@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        monbouton = findViewById(R.id.buttton)
+        monbouton = findViewById(R.id.button)
         monchamps = findViewById(R.id.edit_text)
         monbouton.setOnClickListener {
             val intent = Intent(this, AffichageDesParolesActivity::class.java)
